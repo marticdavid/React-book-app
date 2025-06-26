@@ -108,7 +108,7 @@ async function fetchProfile() {
   }
   async function fetchBooks() {
     try {
-      const res = await fetch("http://localhost:7000/book/", {
+      const res = await fetch(`${apiUrl}/book/`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
