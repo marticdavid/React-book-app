@@ -1,7 +1,7 @@
 import { useEffect, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { storeContext } from "../context/storeContext";
-import Spinner from "../layout/Spinner";
+import Spinner from "../Layout/Spinner";
 import { toast } from "react-toastify";
 
 function Profile() {

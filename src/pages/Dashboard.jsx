@@ -4,7 +4,7 @@ import { useState, useContext, useEffect } from "react";
 import { storeContext } from "../context/storeContext";
 import { data, Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import Spinner from "../layout/Spinner";
+import Spinner from "../Layout/Spinner";
 
 function Dashboard() {
   const [editMode, setEditMode] = useState(false);
