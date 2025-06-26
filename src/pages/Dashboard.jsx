@@ -238,10 +238,12 @@ function Dashboard() {
             onChange={(e) => setCategoryId(e.target.value)}
           >
             <option value="">Select category</option>
-            <option value="1">Politics</option>
-            <option value="3">Fiction</option>
-            <option value="4">Science</option>
-            <option value="5">Art</option>
+            <option value="1">Art</option>
+            <option value="2">Science</option>
+            <option value="3">politics</option>
+            <option value="4">Animal</option>
+            <option value="5">cinematography</option>
+            <option value="6">biography</option>
           </select>
         </div>
 
