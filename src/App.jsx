@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./layout/Footer";
+import Footer from "./Layout/Footer";
 import Home from "./pages/Home";
 import Register from "./pages/Register";
 import { ToastContainer } from "react-toastify";
