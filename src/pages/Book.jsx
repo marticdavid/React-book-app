@@ -3,7 +3,7 @@
 import { useParams } from "react-router-dom";
 import { storeContext } from "../context/storeContext";
 import { useContext, useEffect, useState} from "react";
-import Spinner from "../Layout/Spinner";
+import Spinner from "../Layout/spinner";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 function Book() {
